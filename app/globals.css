@@ -5,7 +5,7 @@
 
 /* ─── Salek Brand Tokens ─── */
 :root {
-  --salek-blue: #1E5BD8;
+  --salek-blue: #2563EB;
   --salek-yellow: #FFC400;
   --salek-dark: #080E1E;
   --salek-card: #0D1529;
@@ -24,7 +24,7 @@
   --card-foreground: #E8ECF7;
   --popover: #0D1529;
   --popover-foreground: #E8ECF7;
-  --primary: #1E5BD8;
+  --primary: #2563EB;
   --primary-foreground: #ffffff;
   --secondary: #FFC400;
   --secondary-foreground: #080E1E;
@@ -36,7 +36,7 @@
   --destructive-foreground: #fecaca;
   --border: rgba(255, 255, 255, 0.07);
   --input: rgba(255, 255, 255, 0.07);
-  --ring: rgba(30, 91, 216, 0.5);
+  --ring: rgba(37, 99, 235, 0.5);
   --radius: 0.625rem;
 }
 
@@ -108,7 +108,7 @@
   height: 500px;
   top: -150px;
   left: -100px;
-  background: radial-gradient(circle, rgba(30, 91, 216, 0.4), transparent 70%);
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.4), transparent 70%);
 }
 .glow-2 {
   width: 600px;
@@ -122,7 +122,7 @@
   height: 500px;
   bottom: -200px;
   left: 30%;
-  background: radial-gradient(circle, rgba(30, 91, 216, 0.15), transparent 70%);
+  background: radial-gradient(circle, rgba(37, 99, 235, 0.15), transparent 70%);
 }
 
 /* ─── Container ─── */
@@ -153,15 +153,12 @@
   align-items: center;
   gap: 14px;
 }
-.brand-icon {
+.brand-logo {
   width: 44px;
   height: 44px;
   border-radius: 12px;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(135deg, var(--salek-blue), #3B7AFF);
-  color: #fff;
-  box-shadow: 0 6px 20px rgba(30, 91, 216, 0.35);
+  object-fit: cover;
+  box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
 }
 .brand-text {
   display: flex;
@@ -228,17 +225,17 @@
   gap: 6px;
   padding: 8px 16px;
   border-radius: 999px;
-  background: linear-gradient(135deg, var(--salek-blue), #3B7AFF);
+  background: linear-gradient(135deg, var(--salek-blue), #4F8AFF);
   color: #fff;
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.25s ease;
-  box-shadow: 0 4px 16px rgba(30, 91, 216, 0.3);
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.3);
 }
 .contact-btn:hover {
   text-decoration: none;
-  box-shadow: 0 6px 24px rgba(30, 91, 216, 0.5);
+  box-shadow: 0 6px 24px rgba(37, 99, 235, 0.5);
   transform: translateY(-1px);
 }
 
@@ -253,7 +250,7 @@
   border: 1px solid var(--salek-border-light);
   background: linear-gradient(
     145deg,
-    rgba(30, 91, 216, 0.15) 0%,
+    rgba(37, 99, 235, 0.15) 0%,
     rgba(13, 21, 41, 0.9) 50%,
     rgba(255, 196, 0, 0.08) 100%
   );
@@ -265,7 +262,7 @@
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(400px 200px at 10% 0%, rgba(30, 91, 216, 0.25), transparent 60%),
+    radial-gradient(400px 200px at 10% 0%, rgba(37, 99, 235, 0.25), transparent 60%),
     radial-gradient(350px 180px at 95% 80%, rgba(255, 196, 0, 0.12), transparent 60%);
   pointer-events: none;
 }
@@ -314,8 +311,8 @@
   gap: 14px;
   padding: 16px 18px;
   border-radius: 14px;
-  border: 1px solid rgba(30, 91, 216, 0.25);
-  background: rgba(30, 91, 216, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  background: rgba(37, 99, 235, 0.08);
 }
 .hero-callout-icon {
   width: 40px;
@@ -323,8 +320,8 @@
   border-radius: 12px;
   display: grid;
   place-items: center;
-  background: rgba(30, 91, 216, 0.18);
-  border: 1px solid rgba(30, 91, 216, 0.2);
+  background: rgba(37, 99, 235, 0.18);
+  border: 1px solid rgba(37, 99, 235, 0.2);
   flex-shrink: 0;
   color: #7BA8FF;
 }
@@ -403,10 +400,10 @@
   font-weight: 800;
   font-size: 11px;
   color: #7BA8FF;
-  background: rgba(30, 91, 216, 0.15);
+  background: rgba(37, 99, 235, 0.15);
   padding: 3px 8px;
   border-radius: 999px;
-  border: 1px solid rgba(30, 91, 216, 0.15);
+  border: 1px solid rgba(37, 99, 235, 0.15);
   flex-shrink: 0;
   min-width: 32px;
   text-align: center;
@@ -511,7 +508,7 @@
   height: 5px;
   border-radius: 999px;
   background: var(--salek-blue);
-  box-shadow: 0 0 0 3px rgba(30, 91, 216, 0.15);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
 }
 
 /* ─── Data Sub-sections ─── */
@@ -538,8 +535,8 @@
   border-radius: 8px;
   display: grid;
   place-items: center;
-  background: rgba(30, 91, 216, 0.1);
-  border: 1px solid rgba(30, 91, 216, 0.12);
+  background: rgba(37, 99, 235, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.12);
   color: #7BA8FF;
   flex-shrink: 0;
 }
